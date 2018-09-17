@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{30A8CC5D-6857-BA13-D9EA-209857B74A08}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AllStarCharacterLibrary\Scripts\Editor\AvatarEditorGUI.cs" />
+     <Compile Include="Assets\Asset_Packs\AllStarCharacterLibrary\Scripts\Editor\TurnOffRenderers.cs" />
+     <Compile Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Scripts\Editor\RFX4_CustomMaterialInspectorParticle.cs" />
+     <Compile Include="Assets\Asset_Packs\PyroParticles\Prefab\Editor\PyroParticlesEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Demo\Editor\UICharacterSelect_UnitEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Demo\Editor\UIRealmSelect_RealmEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Databases\UIItemDatabaseEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Databases\UISpellDatabaseEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Databases\UITalentDatabaseEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Enums, Structs and Serializables\AnimationTriggersExtendedDrawer.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Enums, Structs and Serializables\ColorBlockExtendedDrawer.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Enums, Structs and Serializables\SpriteStateExtendedDrawer.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Layout\HorizontalOrVerticalLayoutGroupExtendedInspector.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Layout\LayoutElementExtendedInspector.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Miscellaneous\BitMaskEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Miscellaneous\ColorPropertyDrawer.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Miscellaneous\UIAnimatorControllerGenerator.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Raycast Filters\UICircularRaycastFilterEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Raycast Filters\UIRectangularRaycastFilterEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\Tools\NavigationTools.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\Icon Slot System\UIEquipSlotEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\Icon Slot System\UIItemSlotEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\Icon Slot System\UISlotBaseEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\Icon Slot System\UISpellSlotEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\Icon Slot System\UITalentSlotEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\Select Field\UISelectFieldEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\Select Field\UISelectField_ArrowEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\Select Field\UISelectField_LabelEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\Select Field\UISelectField_ListEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\UIButtonExtendedEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\UIButtonExtended_TargetEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\UIDragObjectEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\UIHighlightTransitionEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\UIInputFieldLayoutExtensionEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\UISliderExtendedEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\UITabEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\UITooltipEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Scripts\Editor\UI\UIWindowEditor.cs" />
+     <Compile Include="Assets\Asset_Packs\TinyTerrain\Editor\Density\Hill.cs" />
+     <Compile Include="Assets\Asset_Packs\TinyTerrain\Editor\Density\InverseHill.cs" />
+     <Compile Include="Assets\Asset_Packs\TinyTerrain\Editor\Density\Island.cs" />
+     <Compile Include="Assets\Asset_Packs\TinyTerrain\Editor\Surface\EnableStatic.cs" />
+     <Compile Include="Assets\Asset_Packs\TinyTerrain\Editor\Textures\DensityNormal.cs" />
+     <Compile Include="Assets\Asset_Packs\TinyTerrain\Editor\Textures\FaceNormal.cs" />
+     <Compile Include="Assets\Asset_Packs\TinyTerrain\Editor\Textures\FractalAndDensityNormal.cs" />
+     <Compile Include="Assets\Asset_Packs\TinyTerrain\Editor\Vegetation\Plants.cs" />
+     <Compile Include="Assets\Asset_Packs\TinyTerrain\Editor\Vegetation\Vegetation.cs" />
+     <Compile Include="Assets\Scripts\Editor\DataResetterEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Abstracts\EditorWithSubEditors.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Extensions\SerializedPropertyExtensions.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\Conditions\AllConditionsEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\Conditions\ConditionCollectionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\Conditions\ConditionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\InteractableEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionCollectionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\AnimationReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\AudioReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\BehaviourReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\ConditionCollectionReationEditior.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\ConditionReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\DefaultDialogReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\DialogReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\GameObjectReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\ItemPickUpReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\ItemSubmitReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\OnGUICompleteReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\OnGUIReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\QuestReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\ReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\InteractionReaction\Interaction\ReactionEditors\TextReactionEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\SaveDataEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\AttackSkillSensors\ProjectileAttackSensor.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSBase.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSCylinder.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSHemiCylinder.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSHemisphere.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSMultiple.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSNone.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSOctant.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSQuarterCylinder.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSRayCast.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSSector.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSSensor.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Scripts\SNSSphere.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Testing\MultipleSenseTest.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Testing\MultipleSensorTest.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Testing\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Editor\SensorySystem\Testing\SingleSensorTest.cs" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_CutoutBorderMobile.shader" />
+     <None Include="Assets\Asset_Packs\Resources\icon\Readme.txt" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\RFX4_PortalSky.shader" />
+     <None Include="Assets\Enemy_Assets\C&amp;C_Pack\Goblin_rouge\readme.txt" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Tornado.shader" />
+     <None Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Readme.txt" />
+     <None Include="Assets\Enemy_Assets\Knight\shaders\particledistort.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_DepthMask.shader" />
+     <None Include="Assets\Prefabs\UIPrefab\LogoMagicRing\Credit.txt" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_DistortionParticlesMobile.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\AllStarCharacterLibrary\Shaders\ASCL_ColorUnlit.shader" />
+     <None Include="Assets\Asset_Packs\Books\BookLion\Credit.txt" />
+     <None Include="Assets\_CMPT430\Assignment 3\Graph (Mixed Cost) Short Test.xml" />
+     <None Include="Assets\Lava_for_hell\Shaders\Unlit_Lava_Simple.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalDistortMaskMulMobile.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_MobileDiffuse.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalMask.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Lava_for_hell\Shaders\Diffuse_Lava_Distort.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Asset_Packs\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalDistortMaskMobile.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Lava_for_hell\Shaders\Unlit_Lava_Distort.shader" />
+     <None Include="Assets\Lava_for_hell\Shaders\Unlit_Lava_Distort_Transparent.shader" />
+     <None Include="Assets\AllStarCharacterLibrary\Shaders\ASCL_MultiplyUnlit.shader" />
+     <None Include="Assets\Asset_Packs\Tombstones\toledo-memorial-park-moore\source\e18e76f34ed24e4182fd64b61dac3025.zip\LODTreeExport.xml" />
+     <None Include="Assets\Enemy_Assets\DungeonCharacters\Skeletons\version.changes.txt" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\RFX4_PortalMask.shader" />
+     <None Include="Assets\AllStarCharacterLibrary\Shaders\ASCL_OutfitColor.shader" />
+     <None Include="Assets\Prefabs\UIPrefab\QuesMark\Credit.txt" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Bloom\Resources\RFX4_Bloom_Inc.cginc" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_DistortionParticlesAdd.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterSplash.shader" />
+     <None Include="Assets\shaders_portal\ScreenCutoutShader_forportal.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Readme.txt" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Asset_Packs\3DForge\Fantasy_Interiors\Villages_&amp;_Towns\Documents\Village Interiors User Guid v1.3.txt" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalDistortMaskMul.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_IceMobile.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_CutoutBorder.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_IceDecalMobile.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Bloom\Resources\RFX4_Bloom.shader" />
+     <None Include="Assets\Enemy_Assets\Knight\shaders\clothshader.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\AllStarCharacterLibrary\Shaders\ASCL_LinearDodgeUnlit.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_ProjectorBlended.shader" />
+     <None Include="Assets\Asset_Packs\PyroParticles\Readme.txt" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_IceDecal.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Lava.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Shaders\Overlay.shader" />
+     <None Include="Assets\Asset_Packs\RnM UI 2 for UGUI\Changelog.txt" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\RFX4_PortalStandard.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterSplashMobile.shader" />
+     <None Include="Assets\AllStarCharacterLibrary\Shaders\Unlit-Alpha.shader" />
+     <None Include="Assets\Enemy_Assets\Troll_Сannibal\readme.txt" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_ProjectorBlendedMobile.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Asset_Packs\Tombstones\toledo-memorial-park-moore\source\e18e76f34ed24e4182fd64b61dac3025.zip\Tile\Tile.xml" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_ShaderExtension.cginc" />
+     <None Include="Assets\Enemy_Assets\Rhino\Sheder\StandardDoubleSided.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterTurbulence.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Bloom\Resources\RFX4_BloomAdditive.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\_CMPT430\Assignment 3\Graph (Mixed Cost) (No repeat).xml" />
+     <None Include="Assets\Enemy_Assets\Knight\shaders\reflectAdd.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Asset_Packs\Rune_Summon_Stone_Portal\ReadMe.txt" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Particle.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalDistortMask.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Asset_Packs\Horse\SoftAlpha.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterSplashTexMobile.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\NoStencilTransperentDiffuse.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Decal\RFX4_DecalMaskMobile.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Portal\RFX4_TranperentDiffuse.shader" />
+     <None Include="Assets\Asset_Packs\FantasyEnvironments\Environments\README.txt" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Lightning.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_DistortionParticles.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Asset_Packs\Multistory Dungeons\Scenes\ReadMe (1-s person demo).txt" />
+     <None Include="Assets\Asset_Packs\3DForge\Fantasy_Interiors\Villages_&amp;_Towns\Documents\Village Interiors User Guide v1.9.txt" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\Water\RFX4_WaterSplashTex.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_LightningMobile.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Asset_Packs\KriptoFX\Realistic Effects Pack v4\Shaders\RFX4_Ice.shader" />
+     <None Include="Assets\Asset_Packs\western-props-pack\README.txt" />
+     <None Include="Assets\Realistic Terrain Collection\Other\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>D:/Users/Kevin/Documents/School/MacEwan/CMPT 330/Dungen_Crawlers_for_Now/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Analytics">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.HoloLens">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="TinyTerrain">
+ <HintPath>D:/Users/Kevin/Documents/School/MacEwan/CMPT 330/Dungen_Crawlers_for_Now/Assets/Asset_Packs/TinyTerrain/Editor/TinyTerrain.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{9AA19513-CC13-C2A6-8820-A60849CC75BA}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
